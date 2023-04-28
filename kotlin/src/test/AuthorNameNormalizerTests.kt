@@ -26,7 +26,6 @@ class AuthorNameNormalizerTests {
         )
     }
 
-    @Ignore
     @Test
     fun `returns single word name`() {
         assertThat(

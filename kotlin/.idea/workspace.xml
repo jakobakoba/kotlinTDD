@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="repository" />
+        <entry key="$PROJECT_DIR$/.." value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -52,7 +52,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AuthorNameNormalizerTests (3)">
+  <component name="RunManager" selected="JUnit.AuthorNameNormalizerTests (4)">
     <configuration name="AuthorNameNormalizerTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="name-normalizer" />
       <option name="PACKAGE_NAME" value="" />
@@ -80,7 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuthorNameNormalizerTests (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthorNameNormalizerTests (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="name-normalizer" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AuthorNameNormalizerTests" />
@@ -89,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuthorNameNormalizerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthorNameNormalizerTests (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="name-normalizer" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AuthorNameNormalizerTests" />
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AuthorNameNormalizerTests (4)" />
         <item itemvalue="JUnit.AuthorNameNormalizerTests (5)" />
         <item itemvalue="JUnit.AuthorNameNormalizerTests (3)" />
         <item itemvalue="JUnit.AuthorNameNormalizerTests (2)" />
         <item itemvalue="JUnit.AuthorNameNormalizerTests (1)" />
-        <item itemvalue="JUnit.AuthorNameNormalizerTests" />
       </list>
     </recent_temporary>
   </component>
