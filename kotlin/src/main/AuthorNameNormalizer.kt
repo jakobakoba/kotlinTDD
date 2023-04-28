@@ -14,10 +14,11 @@ class AuthorNameNormalizer() {
         if (splitName.count() >= 3) {
             middleName = splitName[1]
         }
-        var middleInitial = ""
-        if (!middleName.isEmpty()) {
-            middleInitial = " ${middleName.first()}."
+        return if (middleName.isEmpty()) {
+            ""
+        } else {
+            " ${middleName.first()}."
         }
-        return middleInitial
+
     }
 }

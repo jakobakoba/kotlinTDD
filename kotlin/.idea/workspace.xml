@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb926ed-fde6-42ab-bc9d-e8a0d9f6849e" name="Default Changelist" comment="test 5 passes">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+    <list default="true" id="cbb926ed-fde6-42ab-bc9d-e8a0d9f6849e" name="Default Changelist" comment="eliminate variable">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/AuthorNameNormalizer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AuthorNameNormalizer.kt" afterDir="false" />
     </list>
@@ -29,6 +28,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -171,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682683637926</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="extract method">
+      <created>1682684357371</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682684357371</updated>
+    </task>
+    <task id="LOCAL-00008" summary="refactor">
+      <created>1682684606973</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682684606973</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +206,9 @@
     <MESSAGE value="test 3 passes" />
     <MESSAGE value="test 4 passes" />
     <MESSAGE value="test 5 passes" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 5 passes" />
+    <MESSAGE value="extract method" />
+    <MESSAGE value="refactor" />
+    <MESSAGE value="eliminate variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="eliminate variable" />
   </component>
 </project>
