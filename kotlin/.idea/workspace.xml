@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb926ed-fde6-42ab-bc9d-e8a0d9f6849e" name="Default Changelist" comment="refactoring">
-      <change beforePath="$PROJECT_DIR$/src/main/AuthorNameNormalizer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AuthorNameNormalizer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/AuthorNameNormalizerTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/AuthorNameNormalizerTests.kt" afterDir="false" />
+    <list default="true" id="cbb926ed-fde6-42ab-bc9d-e8a0d9f6849e" name="Default Changelist" comment="test 3 passes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682681544002</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test 3 passes">
+      <created>1682681921091</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682681921091</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +173,7 @@
     <MESSAGE value="initial" />
     <MESSAGE value="test2 passes" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="test 3 passes" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 3 passes" />
   </component>
 </project>
