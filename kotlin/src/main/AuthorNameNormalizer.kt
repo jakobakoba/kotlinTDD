@@ -16,7 +16,7 @@ class AuthorNameNormalizer() {
         }
         var middleInitial = ""
         if (!middleName.isEmpty()) {
-            middleInitial = " " + middleName.first() + "."
+            middleInitial = " ${middleName.first()}."
         }
         return middleInitial
     }
