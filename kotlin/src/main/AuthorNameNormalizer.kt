@@ -1,17 +1,11 @@
-
-
 class AuthorNameNormalizer() {
 
     fun normalize(name: String): String {
         val suffixSplit = name.trim().split(",")
-        require(suffixSplit.count() <= 2) { "Can't handle more than 1 comma" }
         val splitName = suffixSplit.first().split(" ")
         if (splitName.count() == 1) return name
-        return "${splitName.last()}, ${splitName.first()}${middleInitials(splitName)}${suffix(suffixSplit)}"
-    }
-
-    private fun suffix(suffixSplit: List<String>): String {
-        return if (suffixSplit.count() > 1) ",${suffixSplit.last()}" else ""
+        val suffix = if (suffixSplit.count() > 1) ",${suffixSplit.last()}" else ""
+        return "${splitName.last()}, ${splitName.first()}${middleInitials(splitName)}$suffix"
     }
 
     private fun middleInitials(splitName: List<String>): String {
