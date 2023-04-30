@@ -1,9 +1,12 @@
 class AuthorNameNormalizer() {
 
     fun normalize(name: String): String {
-        val splitName = name.trim().split(" ")
+        val trimmedName = name.trim()
+        val suffixSplit = trimmedName.split(",")
+        val splitName = suffixSplit.first().split(" ")
         if (splitName.count() == 1) return name
-        return "${splitName.last()}, ${splitName.first()}${middleInitials(splitName)}"
+        val suffix = if (suffixSplit.count() > 1) ",${suffixSplit.last()}" else ""
+        return "${splitName.last()}, ${splitName.first()}${middleInitials(splitName)}$suffix"
     }
 
     private fun middleInitials(splitName: List<String>): String {
