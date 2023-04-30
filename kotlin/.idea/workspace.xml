@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb926ed-fde6-42ab-bc9d-e8a0d9f6849e" name="Default Changelist" comment="eliminate variable">
+    <list default="true" id="cbb926ed-fde6-42ab-bc9d-e8a0d9f6849e" name="Default Changelist" comment="eliminated variable">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/AuthorNameNormalizer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AuthorNameNormalizer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/AuthorNameNormalizerTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/AuthorNameNormalizerTests.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +40,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/borya/IdeaProjects/name-normalizer/kotlin"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/borya/IdeaProjects/name-normalizer/kotlin&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -185,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682684606973</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="eliminated variable">
+      <created>1682685406695</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682685406695</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +217,7 @@
     <MESSAGE value="extract method" />
     <MESSAGE value="refactor" />
     <MESSAGE value="eliminate variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="eliminate variable" />
+    <MESSAGE value="eliminated variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="eliminated variable" />
   </component>
 </project>
