@@ -8,12 +8,10 @@ class AuthorNameNormalizer() {
 
     private fun middleInitials(splitName: List<String>): String {
         val middleNames = splitName.drop(1).dropLast(1)
-        var result = ""
-        for (name in middleNames){
-            result += initialize(name)
+        return buildString {
+            middleNames.forEach { append(initialize(it)) }
         }
-        return result
-        }
+    }
 
     private fun initialize(name: String): String {
         val dot = if (name.count() > 1) "." else ""
