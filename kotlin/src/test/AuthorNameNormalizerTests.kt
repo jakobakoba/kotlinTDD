@@ -2,7 +2,6 @@ import kotlin.test.assertFailsWith
 import org.hamcrest.CoreMatchers.equalTo
 import org.hamcrest.MatcherAssert.assertThat
 import org.junit.Before
-import org.junit.Ignore
 import org.junit.Test
 
 class AuthorNameNormalizerTests {
@@ -82,7 +81,6 @@ class AuthorNameNormalizerTests {
         )
     }
 
-    @Ignore
     @Test
     fun `throws when name contains two commas`() {
         assertFailsWith(IllegalArgumentException::class) {
