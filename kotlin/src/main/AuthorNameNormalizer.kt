@@ -15,11 +15,11 @@ class AuthorNameNormalizer() {
     private fun middleInitials(nameParts: List<String>): String {
         val middleNames = nameParts.drop(1).dropLast(1)
         return buildString {
-            middleNames.forEach { append(initialize(it)) }
+            middleNames.forEach { append(initialized(it)) }
         }
     }
 
-    private fun initialize(name: String): String {
+    private fun initialized(name: String): String {
         val dot = if (name.count() > 1) "." else ""
         return " ${name.first()}$dot"
     }
