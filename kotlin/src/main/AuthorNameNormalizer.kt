@@ -7,10 +7,18 @@ class AuthorNameNormalizer() {
     }
 
     private fun middleInitial(splitName: List<String>): String {
-        val middleName = if (splitName.count() >= 3) splitName[1] else ""
-        val dot = if (middleName.count() > 1) "." else ""
-        return if (middleName.isEmpty()) "" else " ${middleName.first()}$dot"
+        val middleNames = splitName.drop(1).dropLast(1)
+        var result = ""
+        for (name in middleNames){
+            result += initialize(name)
+        }
+        return result
         }
 
+    private fun initialize(name: String): String {
+        val dot = if (name.count() > 1) "." else ""
+        return " ${name.first()}$dot"
     }
+
+}
 
