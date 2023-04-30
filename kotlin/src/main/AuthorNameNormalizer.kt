@@ -1,8 +1,7 @@
 class AuthorNameNormalizer() {
 
     fun normalize(name: String): String {
-        val trimmedName = name.trim()
-        val suffixSplit = trimmedName.split(",")
+        val suffixSplit = name.trim().split(",")
         val splitName = suffixSplit.first().split(" ")
         if (splitName.count() == 1) return name
         val suffix = if (suffixSplit.count() > 1) ",${suffixSplit.last()}" else ""
