@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb926ed-fde6-42ab-bc9d-e8a0d9f6849e" name="Default Changelist" comment="eliminated variable">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/AuthorNameNormalizer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AuthorNameNormalizer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/AuthorNameNormalizerTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/AuthorNameNormalizerTests.kt" afterDir="false" />
-    </list>
+    <list default="true" id="cbb926ed-fde6-42ab-bc9d-e8a0d9f6849e" name="Default Changelist" comment="test 7 passes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,7 +189,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682685406695</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="test 6 passes">
+      <created>1682867835418</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682867835418</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test 7 passes">
+      <created>1682868944711</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682868944711</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test 7 passes">
+      <created>1682869009230</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682869009230</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +235,8 @@
     <MESSAGE value="refactor" />
     <MESSAGE value="eliminate variable" />
     <MESSAGE value="eliminated variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="eliminated variable" />
+    <MESSAGE value="test 6 passes" />
+    <MESSAGE value="test 7 passes" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 7 passes" />
   </component>
 </project>
